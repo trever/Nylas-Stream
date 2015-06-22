@@ -1,0 +1,14 @@
+{
+  "name": "nylas-stream",
+  "version": "0.0.1",
+  "description": "Streaming Wrapper for Nylas API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trever Faden (@trever)",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
