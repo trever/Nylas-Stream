@@ -9,6 +9,10 @@
   "author": "Trever Faden (@trever)",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.58.0"
+    "dotenv": "^1.2.0",
+    "emittable": "0.0.6",
+    "meteor-random": "0.0.3",
+    "request": "^2.58.0",
+    "underscore": "^1.8.3"
   }
 }
