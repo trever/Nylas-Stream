@@ -1,9 +1,11 @@
 var Nylas = require('./index.js');
 require('dotenv').load();
 
-var userSub = Nylas().user(process.env.ACCESS_TOKEN).subscribe();
-
-userSub.events({
+var userSub = Nylas();
+var user = userSub.user(process.env.ACCESS_TOKEN);
+var sub = user.subscribe();
+// console.log(sub);
+sub.events({
 	'create_thread':function(thread){
 		console.log("Thread", thread);
 	},
