@@ -28,12 +28,15 @@ sub.events({
 
 ## Usage
 
-``` javascript
-var nylas_stream = require('nylas-stream');
+See above! More to come.
 
-// Instantiate a new instance of Nylas-Stream, or don't. It'll do it for you
-var ns = new nylas_stream || nylas_stream();
+### Methods
 
+#### `Nylas_Stream.user(access_token [, namespace, callback])`
 
-```
+#### `user.subscribe([cursor, events])`
+
+#### `user.events(eventMap)`
+
+#### `user.event(eventName, eventCallback)`
 
