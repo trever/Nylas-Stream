@@ -32,11 +32,15 @@ See above! More to come.
 
 ### Methods
 
-#### `Nylas_Stream.user(access_token [, namespace, callback])`
+###### `Nylas_Stream.user(access_token [, namespace, callback])`
 
-#### `user.subscribe([cursor, events])`
+###### `user.subscribe([cursor, events])`
 
-#### `user.events(eventMap)`
 
-#### `user.event(eventName, eventCallback)`
+
+###### `user.events(eventMap)`
+
+
+
+###### `user.event(eventName, eventCallback)`
 
