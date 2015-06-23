@@ -14,5 +14,23 @@
     "request": "^2.58.0",
     "split": "^1.0.0",
     "underscore": "^1.8.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trever/nylas-stream.git"
+  },
+  "keywords": [
+    "nylas",
+    "trever",
+    "faden",
+    "email",
+    "stream",
+    "gmail",
+    "api"
+  ],
+  "bugs": {
+    "url": "https://github.com/trever/nylas-stream/issues"
+  },
+  "homepage": "https://github.com/trever/nylas-stream#readme"
 }
